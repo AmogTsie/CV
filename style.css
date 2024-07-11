@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    display: flex;
+    background: #d5922b;
+    justify-content: space-between;
+    border-bottom: none;
+    padding: 10px 10px;
+    height: 50px;
+}
+a{
+    list-style: none;
+    margin: 1rem;
+    color: black;
+}
+
+/*Home Page*/
+
+.container{
+    margin: 50px;
+}
+
+.box1{
+   
+    float:left;
+}
+
+.box1 img{
+    border-radius: 50%;
+}
+
+.box1 h2{
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.box1 p, ul{
+   margin:10px;
+   font-size: 20px;
+}
+
+.box2{
+    width: 60%;
+    float:right;
+}
+
+.box2 h1{
+    margin-bottom: 40px;
+}
+.box2 h2{
+    margin-top: 50px;
+    margin-bottom: 5px;
+}
+.box2 p{
+    font-size:20px;
+}
+
+
+
+/*Contact Page*/
+.form{
+    margin-top: 30px;
+    padding-left: 450px;
+}
+.form h1{
+    font-size:50px;
+    font-weight:200px;
+    margin-left: 80px;
+}
+.form p{
+    font-size: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.form input{
+    height:40px;
+    width:400px;
+}
+
+#message{
+    height:40px;
+    width:400px;
+
+}
+.form button{
+    border-radius: 10px;
+    height:40px;
+    width:400px;
+}
